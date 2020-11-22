@@ -1,0 +1,88 @@
+html {
+  background-repeat:no-repeat;
+  background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+  background-size: cover;
+  min-height: 100%;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  margin-top: 15%;
+  max-width: 32rem;
+  width: 90%;
+  padding: 2.5rem;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.flutter {
+  margin: 0;
+}
+
+.login {
+  color: #787C8A;
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 2px solid #465BD8;
+  outline: none;
+  height: 35px;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.submitButton {
+  background-color: #5ABDD7;
+  color: #FFFFFF;
+  width: 133px;
+  height: 34px;
+  font-size: medium;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.createAccount {
+  color: #6D78E0;
+  margin-right: 16px;
+  font-size: 14px;
+  margin-top: 11px;
+  text-decoration: none;
+}
+
+.submitButton:hover {background-color: #AEBDF4}

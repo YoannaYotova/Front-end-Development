@@ -40,10 +40,11 @@ form {
   margin: 0;
 }
 
-.login {
+h2 {
   color: #787C8A;
   margin-top: 0;
   margin-bottom: 34px;
+  font-size: x-large;
 }
 
 input {
@@ -53,7 +54,6 @@ input {
   border-bottom: 2px solid #465BD8;
   outline: none;
   height: 35px;
-
 }
 
 .buttons {

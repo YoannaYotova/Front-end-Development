@@ -48,11 +48,6 @@ h1 {
   height: 263px;
 }
 
-.side-content {
-  display: flex;
-  flex-direction: column;
-}
-
 .profile {
   justify-content: center;
   align-items: center;
@@ -206,15 +201,27 @@ h1 {
 
 }
 
-@media (max-width: 1024px) {
-  .side-content {
-    display: none;
-  }
+.active {
+  margin-left: 10px;
+  color: #A1A2AD;
+  font-size: 14px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 17px;
 }
 
 @media (max-width: 890px) {
   .content {
     padding: 42px 24px;
     width: 90%;
+    flex-direction: column;
+    gap: 0;
   }
+  .side-content {
+    width: initial;
+    max-width: inherit;
+  }
+
 }

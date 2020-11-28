@@ -221,7 +221,14 @@ h1 {
   }
   .side-content {
     width: initial;
-    max-width: inherit;
+    max-width: initial;
+    height: initial;
   }
-
+  .profile-info {
+    height: 3.75rem;
+  }
+  .profile img {
+    height: 5.25rem;
+    width: 5.25rem;
+  }
 }

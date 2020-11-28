@@ -75,7 +75,9 @@ h1 {
   height: 70px;
   margin-top: 31px;
   gap: 27px;
-  padding-left: 23px;
+  padding: 2px 6%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .info {
@@ -92,7 +94,6 @@ h1 {
 }
 
 .profile-info button {
-  margin-top: 18px;
   height: 33px;
   width: 76px;
   background-color: #FFFFFF;
@@ -103,7 +104,6 @@ h1 {
   cursor: pointer;
   color: rgb(90, 188, 213);
   font-size: 14px;
-  margin-left: 19px;
 }
 
 .post-content {
@@ -232,8 +232,6 @@ h1 {
   }
   .profile-info {
     height: 3.75rem;
-    display: flex;
-    justify-content: space-between;
     padding: 4px 4%;
   }
   .profile img {
